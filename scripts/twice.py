@@ -6,7 +6,7 @@ n = 0
 
 def cb(message):
     global n
-    n = message.data*2
+    n = message.data*message.data
     print (n)
 
 if __name__ == '__main__':
