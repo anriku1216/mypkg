@@ -61,6 +61,10 @@ rosrun mypkg count.py
 rosrun mypkg twice.py
 ```
 
+## デモ動画
+
+YouTubeにあげた動画は[こちら](https://www.youtube.com/watch?v=abFqEAe6-9c)。
+
 ## 著者
 
 [Rikuto Andou](http://github.com/anriku1216)
