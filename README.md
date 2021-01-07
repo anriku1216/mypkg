@@ -19,11 +19,11 @@
 ---
 # 環境
 
-・ROS Noetic
+- ROS Noetic
 
-・Raspberry Pi 4 Model B
+- Raspberry Pi 4 Model B
 
-・Ubuntu 20.04.1 LTS
+- Ubuntu 20.04.1 LTS
 
 ---
 
@@ -33,18 +33,18 @@
 
 - [ros setup scripts Ubuntu20.04 server](http://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server)を参照しROSをインストールする。
 
--[ロボットシステム学第10回](http://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/)を参照しワークスペースを作成する。
+- [ロボットシステム学第10回](http://ryuichiueda.github.io/robosys2020/lesson10_ros.html#/)を参照しワークスペースを作成する。
 
 - `git`を使用して本パッケージをダウンロードする。
 
 ```bash
+cd ~/catkin_ws/src
 git clone https://anriku1216/mypkg.git
 ```
-cd 
+- `catkin_make`をして本パッケージをビルドする。
 
-
-
-
+```bash
+cd ~/catkin_ws && catkin_make
 ```
 
 ## 著者
