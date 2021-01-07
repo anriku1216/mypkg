@@ -8,7 +8,7 @@
 
 講義で作成したものを編集し作成した。
 
-- 1秒ごとに、2秒たったら4、3秒たったら9と秒数の二乗の数が表示されます。未来の青い猫型ロボットの話に出てくる道具[バイバイン](https://github.com/anriku1216/myled/blob/main/myled/baibain.c)のような挙動をみることができる。
+- 1秒ごとに、2秒たったら4、3秒たったら9と秒数の二乗の数が表示されます。未来の青い猫型ロボットの話に出てくる道具[バイバイン](https://github.com/anriku1216/myled/blob/main/myled/baibain.c)のような挙動をみることができます。
 
 ---
 # 環境
@@ -45,13 +45,21 @@ cd ~/catkin_ws && catkin_make
 
 ### [topic.launch](http://github.com/anriku1216/mypkg/blob/main/launch/topic.launch)
 
+- [count.py](https://github.com/anriku1216/mypkg/blob/main/scripts/count.py)のノードから送られた数値を[twice.py](https://github.com/anriku1216/mypkg/blob/main/scripts/twice.py)で二乗して表示するlaunchファイルです。
 
+- 次のコマンドで起動します。
 
+```bash
+roslaunch mypkg topic.launch
+```
 
+-個別で実行する場合には以下のコマンドを別々の端末で実行する。
 
-
-
-
+```bash
+roscore
+rosrun mypkg count.py
+rosrun mypkg twice.py
+```
 
 ## 著者
 
@@ -63,28 +71,3 @@ ROSセットアップに関して:
 ## ライセンス
 
 [BSD 3-Clause "New" or "Revised" License](http://github.com/anriku1216/mypkg/blob/main/LICENSE)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
