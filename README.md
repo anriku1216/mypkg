@@ -8,13 +8,7 @@
 
 講義で作成したものを編集し作成した。
 
-・
-
-
-
-
-
-
+- 1秒ごとに、2秒たったら4、3秒たったら9と秒数の二乗の数が表示されます。未来の青い猫型ロボットの話に出てくる道具'バイバイン'のような挙動をみることができる。
 
 ---
 # 環境
@@ -29,7 +23,7 @@
 
 # ビルド
 
-## 実行方法
+## インストール方法
 
 - [ros setup scripts Ubuntu20.04 server](http://github.com/ryuichiueda/ros_setup_scripts_Ubuntu20.04_server)を参照しROSをインストールする。
 
@@ -46,6 +40,18 @@ git clone https://anriku1216/mypkg.git
 ```bash
 cd ~/catkin_ws && catkin_make
 ```
+
+## パッケージ概要
+
+### [topic.launch](http://github.com/anriku1216/mypkg/blob/main/launch/topic.launch)
+
+
+
+
+
+
+
+
 
 ## 著者
 
