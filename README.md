@@ -33,7 +33,7 @@
 
 ```bash
 cd ~/catkin_ws/src
-git clone https://anriku1216/mypkg.git
+git clone https://github.com/anriku1216/mypkg.git
 ```
 - `catkin_make`をして本パッケージをビルドする。
 
@@ -53,7 +53,7 @@ cd ~/catkin_ws && catkin_make
 roslaunch mypkg topic.launch
 ```
 
--個別で実行する場合には以下のコマンドを別々の端末で実行する。
+- 個別で実行する場合には以下のコマンドを別々の端末で実行する。
 
 ```bash
 roscore
